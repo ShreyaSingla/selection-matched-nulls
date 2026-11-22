@@ -35,6 +35,8 @@ python src/toy_selection.py       # toy demonstration figure; needs no project d
 python src/lawley_lemma.py        # Pearson-Lawley closed form and its numerical check
 python src/tcopula_check.py       # t-copula tail-dependence robustness check
 python src/share_intervals.py     # Monte-Carlo intervals on the "share explained" figures
+python src/robustness_r2.py       # propagated-loading and ability-stratified nulls (~3 min)
+python src/robustness_r2.py --synthetic   # no-op check of the stratification on synthetic panels
 python src/fig_rank_intervals.py  # rank-interval figure (after run_all.py)
 ```
 
@@ -54,6 +56,7 @@ src/reliability.py      per-task reliability from per-question scores; disattenu
 src/lawley_lemma.py     Pearson-Lawley closed form for selection on an internal composite
 src/tcopula_check.py    t-copula robustness check
 src/share_intervals.py  intervals on the share of the collapse explained by selection
+src/robustness_r2.py    camera-ready robustness checks: propagated loading uncertainty, ability-stratified residuals
 src/toy_selection.py    standalone toy demonstration
 src/fig_rank_intervals.py  rank-interval figure
 src/run_all.py          driver; regenerates results/
