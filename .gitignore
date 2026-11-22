@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+.ipynb_checkpoints/
+
+# Manuscript material is deliberately NOT part of this repository
+paper/
+superseded/
+*.tex
+*.pdf
+*.cls
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# generated figures (regenerate with src/toy_selection.py and src/fig_rank_intervals.py)
+results/*.png

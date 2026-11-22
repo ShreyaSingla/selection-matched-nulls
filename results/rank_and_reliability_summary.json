@@ -1,0 +1,14 @@
+{
+  "B": 2000,
+  "n_models": 152,
+  "n_tasks": 7,
+  "rank1_model": "gemini-2.5-pro-exp-03-25",
+  "rank1_stability": 0.9955,
+  "mean_top10_overlap": 0.8791,
+  "n_models_reaching_top10_ge5pct": 17,
+  "n_models_ci_includes_top10": 19,
+  "top50_obs_spearman": 0.1364,
+  "top50_disatt_spearman": 0.1439,
+  "full_obs_spearman": 0.7032,
+  "full_disatt_spearman": 0.7871
+}
