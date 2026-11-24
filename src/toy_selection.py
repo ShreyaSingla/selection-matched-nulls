@@ -111,8 +111,6 @@ axb.annotate("same number of models\nchosen at random", (1, rmed[0]), xytext=(2,
 axb.text(2.5, .855, "cut depths used by real leaderboards", ha="left", va="top",
          fontsize=6.5, color="#5A6572")
 
-fig.suptitle("Nothing is wrong with these benchmarks, and their agreement still collapses at the top",
-             x=.02, ha="left", fontsize=8.5)
-fig.tight_layout(rect=(0, 0, 1, .93))
+fig.tight_layout()      # no in-image title: the caption carries the message
 fig.savefig("results/fig0_toy_selection.png", dpi=320)
 print("wrote results/fig0_toy_selection.png")

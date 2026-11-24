@@ -37,6 +37,7 @@ python src/tcopula_check.py       # t-copula tail-dependence robustness check
 python src/share_intervals.py     # Monte-Carlo intervals on the "share explained" figures
 python src/robustness_r2.py       # propagated-loading and ability-stratified nulls (~3 min)
 python src/robustness_r2.py --synthetic   # no-op check of the stratification on synthetic panels
+python src/romano_wolf_pairs.py  # per-pair test with Romano-Wolf stepdown, LiveBench top 50 (~10 s)
 python src/fig_rank_intervals.py  # rank-interval figure (after run_all.py)
 ```
 
@@ -57,6 +58,7 @@ src/lawley_lemma.py     Pearson-Lawley closed form for selection on an internal 
 src/tcopula_check.py    t-copula robustness check
 src/share_intervals.py  intervals on the share of the collapse explained by selection
 src/robustness_r2.py    camera-ready robustness checks: propagated loading uncertainty, ability-stratified residuals
+src/romano_wolf_pairs.py per-pair Romano-Wolf stepdown test (Sec. VI-B); --legacy reproduces the original B=2000 run
 src/toy_selection.py    standalone toy demonstration
 src/fig_rank_intervals.py  rank-interval figure
 src/run_all.py          driver; regenerates results/
